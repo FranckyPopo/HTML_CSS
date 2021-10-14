@@ -7,7 +7,7 @@ body
 
 main
 {    
-    
+    position: relative;
 }
 
 
@@ -47,13 +47,15 @@ footer
 h2
 {
     font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.7em;
 }
 
 #conteneur_bloc_droit
 {
     position: relative;
     float: right;
-    position: relative;
     bottom: 60px;
     border: 1px solid white;
     width: 400px;
@@ -61,26 +63,29 @@ h2
     padding-top: 30px;
     border-radius: 10px;
     height: 250px;
+    left: 35%;
 }
 
 #bloc_droit
 {
     text-align: center;
+    
 }
 
 #bloc_gauche
 {
     position: relative;
-    left: 60px;
+    left: 30%;
     top: 150px;
     margin-right: 50px;
-}
-.flote_pas
-{
-    clear: both;
 }
 
 #connecter
 {
     text-align: center;
+}
+
+.flote_pas
+{
+    clear: both;
 }
