@@ -1,0 +1,47 @@
+/* Corps de la page principal*/
+body
+{
+    background-color: #FAFAFA;
+}
+
+/* Conteneur flex */
+#conteneur-flex
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* flex item */
+#flex-item-2
+{
+    margin-left: 20px;
+}
+
+/* Ecrant des iphones */
+#iphone-1
+{
+    position: relative;
+    left: 164px;
+    width: 285px;
+    z-index: 0;
+}
+
+#iphone-2
+{
+    position: relative;
+    width: 224px;
+    z-index: 2;   
+}
+
+/* font d'ecrant instagram */
+#img-ecrant-1
+{
+    position: absolute;
+    top: 65px;
+    left: 417px;
+    width: 196px;
+    height: 346px;
+    z-index: 1;
+}
+
