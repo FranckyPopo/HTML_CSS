@@ -7,15 +7,18 @@ body
 /* Conteneur flex */
 #conteneur-flex
 {
+    position: relative;
+    right: 90px;
+    top: 50px;
     display: flex;
     justify-content: center;
-
 }
 
 /* flex item */
 #flex-item-2
 {
-    margin-left: 20px;
+    margin-left: 45px;
+    background-color: white;
 }
 
 /* Ecrant des iphones */
@@ -24,6 +27,7 @@ body
     position: relative;
     left: 164px;
     width: 285px;
+    height: 463px;
     z-index: 0;
 }
 
@@ -39,9 +43,47 @@ body
 {
     position: absolute;
     top: 65px;
-    left: 417px;
+    left: 450px;
     width: 196px;
     height: 346px;
     z-index: 1;
+}
+
+#logo-facebook
+{
+    width: 25px;
+}
+
+#email
+{
+    margin-bottom: 10px;
+}
+
+/* selecteur simple */
+input
+{
+    background-color: #FAFAFA;
+    width: 249px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+button
+{
+    width: 264px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+footer
+{
+    position: relative;
+    top: 239px;
 }
 
