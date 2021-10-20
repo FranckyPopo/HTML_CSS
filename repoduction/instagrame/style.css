@@ -18,7 +18,8 @@ body
 #flex-item-2
 {
     margin-left: 45px;
-    background-color: white;
+    width: 360px;
+    height: 396px;
 }
 
 /* Ecrant des iphones */
@@ -52,11 +53,121 @@ body
 #logo-facebook
 {
     width: 25px;
+    position: relative;
+    bottom: 210px;
+    left: 81px;
 }
 
 #email
 {
     margin-bottom: 10px;
+    margin-left: 45px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#mdp
+{
+    margin: -3px 0px 10px 45px;
+    padding: 10px;
+    border: 1px solid gray; 
+}
+
+#bare-1
+{
+    position: relative;
+    right: 74px;
+    bottom: 203px;
+    width: 95px;
+}
+
+#bare-2 
+{
+    position: relative;
+    left: 81px;
+    bottom: 239px;
+}
+
+#mini-item-1
+{
+    height: 55px;
+    position: relative;
+    bottom: 15px;
+}
+
+#deplacement-temporaire
+{
+    position: relative;
+    top: 250px;
+}
+
+#mini-item-1 a
+{
+    position: relative;
+    left: 0px;
+}
+
+#mini-item-2 p
+{
+    position: relative;
+    bottom: 105px;
+    left: 102px;
+}
+
+#mini-item-2 img
+{
+    position: relative;
+    bottom: 100px;
+    left: 44px;
+}
+
+.saisir_information
+{
+    position: relative;
+    top: 25px;
+}
+
+.box
+{
+    background-color: white;
+    border: 1px solid #cfcaca;
+}
+.choix
+{
+    position: relative;
+    bottom: 222px;
+    left: 171px;
+}
+
+.mdp-oublie
+{
+    display: block;
+    color: black;
+    position: relative;
+    bottom: 195px;
+    left: 133px;   
+}
+
+.connexion-facebook
+{
+    position: relative;
+    left: 85px;
+    bottom: 217px;
+    font-size: 0.85em;
+    font-family: serif;
+}
+
+.meme-ligne, #mini-item-1 a
+{
+    display: inline-block;
+    position: relative;
+    left: 26px;
+    padding: 15px;
+}
+
+.inviter
+{
+    color: #0081d6;
 }
 
 /* selecteur simple */
@@ -71,14 +182,38 @@ input
 
 button
 {
-    width: 264px;
-    background-color: blue;
+    width: 272px;
+    background-color: #0095F6;
+    border: 1px solid #0095F6;
     border-radius: 5px;
+    padding: 7px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 45px;
+    bottom: 220px;
 }
 
-h1
+h1 
 {
     text-align: center;
+    font-size: 2.5em;
+    letter-spacing: -5px;
+    position: relative;
+    top: 13px;
+}
+
+hr 
+{
+    width: 105px;
+    color: rgba(148, 143, 143, 0.747);
+}
+
+form a
+{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: rgb(62, 81, 141)
 }
 
 footer

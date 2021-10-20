@@ -25,22 +25,28 @@
                     <input type="email" id="email" class="saisir_information" placeholder="Num, téléphone, nom d'utilisateur ou e-mail"> <br>
                     <input type="password" id="mdp" class="saisir_information" placeholder="Mot de passe"> <br>
                     <!-- création du bouton de connexion -->
-                    <button>connexion</button>
-                    <!-- barre horizontal -->
-                    <hr>
-                    <!-- image et bouton se connecter a facebook -->
-                    <img src="./image/logo_facebook.jpg" alt="log de facebook" id="logo-facebook">
-                    <a href="#">Se connecter a Facebook</a>
-                    <!-- mini box -->
-                    <div id="mini-item-1" class="box">
-                        <span>Vous n’avez pas de compte  ?</span> 
-                        <a href="#">Inscrivez-vous</a>
+            
+                    <div id="deplacement-temporaire">
+                        <button>connexion</button>
+                        <!-- barre horizontal -->
+                        <hr class="bares" id="bare-1">
+                        <span class="choix">ou</span>
+                        <hr class="bares" id="bare-2">
+                        <!-- image et bouton se connecter a facebook -->
+                        <img src="./image/logo_facebook.jpg" alt="log de facebook" id="logo-facebook">
+                        <a href="#" class="connexion-facebook">𝐒𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐫 𝐚𝐯𝐞𝐜 𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤</a>
+                        <a href="#" class="mdp-oublie">mot de passe oublié ?</a>
+                        <!-- mini box -->
+                        <div id="mini-item-2">
+                            <p>Téléchargez l’application.</p>
+                            <img src="./image/logo_apple_store.png" alt="logo apple store" width="150px">
+                            <img src="./image/logo_google_play.png" alt="logo google play store" width="150px">
+                        </div>
+                    
                     </div>
-
-                    <div id="mini-item-2">
-                        <p>Téléchargez l’application.</p>
-                        <img src="./image/logo_apple_store.png" alt="logo apple store" width="150px">
-                        <img src="./image/logo_google_play.png" alt="logo google play store" width="150px">
+                    <div id="mini-item-1" class="box">
+                        <span class="meme-ligne">Vous n’avez pas de compte  ?</span> 
+                        <a href="#" class="inviter">Inscrivez-vous</a>
                     </div>
                 </form>
             </div>
@@ -76,5 +82,6 @@
         </select>
         <span>© 2021 Instagram par Facebook</span>
     </footer>
+    
 </body>
 </html>
